@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        .container {
+            margin: auto;
+            background-color:blue;
+            background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(11, 5, 62));
+            height: 650px;
+            width: 550px;
+            border: 1px solid #ccc;
+        }
+        .midImage {
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            height: 180px;
+            width: 180px;
+        }
+        .input {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .input input {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .input placeholder {
+            text-align: center;
+        }
+        .buttonlist1 {
+            margin-top: 20px;
+            margin-left: 15%;
+        }
+        .buttonlist2 {
+            margin-top: 20px;
+            margin-left: 18%;
+        }
+        .buttonlist3 {
+            margin-top: 20px;
+            margin-left: 25%;
+        }
+        .button {
+            border: 0px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            color: black;
+            background-color: rgb(255, 255, 255);
+            padding: 7px;
+            border-radius: 11px 0px 11px 0px;
+        }
+        .para {
+            padding-top: 20px;
+            margin: 10px 20px 10px 20px;
+        }
+        .button1:hover {
+            background-color: #04AA6D;
+            color: white;
+            margin-bottom: 200px;
+        }
+        .button2:hover {
+            background-color: #04AA6D;
+            color: white;
+        }
+        .button3:hover {
+            background-color: #04AA6D;
+            color: white;
+        }
+        .button4:hover {
+            background-color: #04AA6D;
+            color: white;
+        }
+        .button5:hover {
+            background-color: #04AA6D;
+            color: white;
+        }
+        .button6:hover {
+            background-color: green;
+            color: white;
+        }
+        .information {
+            margin: top 20px; ;
+            text-align: center;
+        }
+        ul.myUL{
+            display: inline-block;
+            text-align: left;
+        }
+        li {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center; padding-top: 10px; color:rgb(5, 255, 38)">Logging Message</h2>
+        <p style="text-align: center; font-family:cursive; color:white">Open the console to see the messages</p>
+        <div class="buttonlist1">
+            <button class="button button1">Log Messages</button>
+            <button class="button button2">Warm Messages</button>
+            <button class="button button3">Error Messages</button>
+            <button class="button button4">Info Messages</button>
+            </div>
+            <div class="buttonlist2">
+            <button class="button button5">Clear Response</button>
+            <button class="button button6">Assert</button>
+            <button class="button button4">Table</button>
+            <button class="button button5">Group</button>
+            <button class="button button6">Custom Style</button>
+            </div>
+            <div class="buttonlist3">
+            <button class="button button4">Cause 404 Error</button>
+            <button class="button button5">Cause Error</button>
+            <button class="button button6">Cause Violation</button>
+        </div>
+        <div class="information">
+            <h3 style="text-align: center; padding-top: 10px;color:white">To open the console:</h3>
+            <ul class="myUL">
+                <li>Right-click on the page and select "Inspect"</li>
+                <li>Press F12 or Ctri + Shift + I</li>
+                <li>Press F12 or Cmd + Option + I on Mac</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

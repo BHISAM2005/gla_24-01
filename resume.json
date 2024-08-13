@@ -1,0 +1,60 @@
+{
+    "name": "Bhisam Kumar",
+    "contact": {
+        "email": "bhisamkumar4@gmail.com",
+        "phone": "555-555-5555",
+        "linkedin": "linkedin.com/in/bhisamkumar",
+        "github": "github.com/bhisamkumar"
+    },
+    "summary": "Highly motivated and experienced software engineer with 5+ years of experience in developing scalable and efficient software solutions.",
+    "education": [
+        {
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "GLA University, Mathura",
+        "location": "Mathura , UttarPradesh, India - ",
+        "graduationDate": "2026"
+        }
+    ],
+    "workExperience": [
+        {
+        "company": "ABC Corporation",
+        "title": "Senior Software Engineer",
+        "startDate": "2022",
+        "endDate": "2024",
+        "achievements": [
+            "Developed and deployed multiple high-traffic web applications using Java and Spring",
+            "Improved code quality and reduced bugs by 30% through rigorous testing and code reviews",
+            "Mentored junior engineers and provided guidance on best practices and coding standards"
+        ]
+        },
+        {
+        "company": " DEF Startups",
+        "title": "Software Engineer",
+        "startDate": "2023",
+        "endDate": "2024",
+        "achievements": [
+            "Built and maintained multiple mobile applications using React Native and JavaScript",
+            "Collaborated with cross-functional teams to deliver projects on time and within budget",
+            "Improved application performance by 25% through optimization and caching"
+        ]
+        }
+    ],
+    "skills": [
+        "Programming languages: Java, JavaScript, Python",
+        "Development frameworks: Spring, React Native",
+        "Databases: MySQL, MongoDB",
+        "Operating Systems: Windows, Linux",
+        "Agile methodologies: Scrum, Kanban"
+    ],
+    "certifications": [
+        "Certified Scrum Master (CSM)",
+        "Certified Java Developer (OCPJP)"
+    ],
+    "projects": [
+        {
+        "name": "Personal Project: To-Do List App",
+        "description": "A mobile application built using React Native and JavaScript to manage daily tasks and reminders",
+        "github": "github.com/johndoe/todo-list-app"
+        }
+    ]
+}

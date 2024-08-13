@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  padding: 20px;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chat-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.chat-header h2 {
+  margin: 0;
+}
+
+.chat-message {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.chat-message.user {
+  justify-content: flex-end;
+}
+
+.chat-message-content {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 250px;
+  word-break: break-all;
+}
+
+.chat-message-content.user {
+  background-color: #e0f2f7;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.chat-input input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.chat-input button {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2023/7/329252193/LO/EW/HT/2614339/mens-wear.jpg" alt="User Profile">
+      <h2>Lupe Fiasco</h2>
+    </div>
+    <div class="chat-message user">
+      <div class="chat-message-content">
+        Yo!
+      </div>
+    </div>
+    <div class="chat-message">
+      <div class="chat-message-content">
+        I got two tickets to go see this awesome band called, Lorem Ipsum Dolor!! Do you want to come?
+      </div>
+    </div>
+    <div class="chat-message user">
+      <div class="chat-message-content">
+        Hey
+      </div>
+    </div>
+    <div class="chat-message">
+      <div class="chat-message-content">
+        I don't think I will be able to make it, but I heard they're great! Have fun and let's try and catch up at some point this week!
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="text" placeholder="Write a message...">
+      <button>Send</button>
+    </div>
+  </div>
+</body>
+</html>

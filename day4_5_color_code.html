@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Page </title>
+    <style>
+        .container{
+            margin: auto;
+            height: 600px;
+            width: 600px;
+            border: 1px solid black;
+            position: relative;
+            background-color: rgb(86, 41, 249);
+        }
+        .box1{
+            height: 200px;
+            width: 200px;
+            background:linear-gradient(rgb(104, 245, 97),rgb(255, 65, 65));
+            position: absolute;
+            left: 200px;
+        }
+        .box2{
+            width: 400px;
+            height: 30px;
+            position: absolute;
+            left: 100px;
+            top: 350px;
+            color: black;
+            background: rgb(8, 242, 43);
+            text-align: center;
+            border-radius: 5px;
+            padding: 4px;
+        }
+        .box3{
+            width: 500px;
+            position: absolute;
+            height: 30px;
+            left: 70px;
+            top: 420px;
+            background: white;
+        }
+        .button{
+            height: 40px;
+            width: 50px;
+            background: aquamarine;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1 style="text-align: center;color: aquamarine;">
+        Color Code
+    </h1>
+    <p style="text-align: center;color: aqua;">Click on the button to get random color code</p>
+    <div class="box1"> </div>
+    <div class="box2"> linear-gradient(rgb(104, 245, 97),rgb(255, 65, 65))</div>
+    <div class="box3">
+        <button>Hex-color</button>
+        <button>Rgb-color</button>
+        <button>Hsl-color</button>
+        <button>Rsla-color</button>
+        <button>color name</button>
+        <button>color rgb</button>
+    </div>
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 300px;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header .user {
+  display: flex;
+  align-items: center;
+}
+
+.header .user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header .controls {
+  display: flex;
+  align-items: center;
+}
+
+.header .controls i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.messages {
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.message.sender {
+  justify-content: flex-start;
+}
+
+.message.receiver {
+  justify-content: flex-end;
+}
+
+.message .text {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 200px;
+  margin-left: 10px;
+}
+
+.message.receiver .text {
+  background-color: #c9d3f7;
+  margin-right: 10px;
+}
+
+.input {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.input button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <div class="user">
+      <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200&d=mp&r=g" alt="User Avatar">
+      <span>Vishal Sisodiya</span>
+    </div>
+    <div class="controls">
+      <i class="fas fa-comment-alt"></i>
+      <i class="fas fa-video"></i>
+      <i class="fas fa-phone"></i>
+    </div>
+  </div>
+
+  <div class="messages">
+    <div class="message sender">
+      <div class="text">
+        Yo!
+      </div>
+    </div>
+    <div class="message receiver">
+      <div class="text">
+        I got two tickets to go see this awesome Movie , RRR!! Do you want to come?
+      </div>
+    </div>
+    <div class="message sender">
+      <div class="text">
+        10:30am on Tue, Mar 23, 2015
+      </div>
+    </div>
+    <div class="message receiver">
+      <div class="text">
+        Hey
+      </div>
+    </div>
+    <div class="message sender">
+      <div class="text">
+        I don't think I will be able to make it, but I heard they're great! Have fun and let's try and catch up at some point this week!
+      </div>
+    </div>
+  </div>
+
+  <div class="input">
+    <input type="text" placeholder="Write a message...">
+    <button>Send</button>
+  </div>
+</div>
+
+</body>
+</html>
